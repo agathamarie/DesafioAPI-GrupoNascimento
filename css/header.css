@@ -1,17 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url(./style.css);
 
-*{
-    margin: 0;
-	padding: 0;
-	border: 0;
-    text-decoration: none;
-	list-style: none;
-
-    font-family: "Inter", serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-}
 
 img{
     width: 112px;
@@ -25,12 +13,11 @@ header{
     display: flex;
     flex-direction: row;
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #div-btn-busca{
     display: flex;
-    
     justify-content: end;
     align-items: center;
 }
@@ -40,4 +27,13 @@ header{
     width: 109px;
     height: 37px;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#lupa{
+    width: 16px;
+    height: 16px;
 }

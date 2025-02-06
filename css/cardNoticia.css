@@ -1,0 +1,27 @@
+@import url(./style.css);
+
+body{
+    background-color: rgb(184, 184, 184);
+}
+
+.container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    object-fit: ;
+    width: 400px;
+    height: 200px;
+}
+
+#imagem-noticia{
+
+}
+
+#manchete-noticia{
+
+}
+
+#data-noticia{
+
+}
