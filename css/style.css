@@ -12,3 +12,66 @@
     font-weight: weight;
     font-style: normal;
 }
+
+@import url(./style.css);
+
+
+img{
+    width: 112px;
+    height: 52px;
+}
+
+header{
+    background-color: #A72424;
+    width : relative;
+    height: 79px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+}
+
+#div-btn-busca{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+#btn-busca{
+    color: #A72424;
+    background-color: white;
+    width: 109px;
+    height: 37px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#lupa{
+    width: 16px;
+    height: 16px;
+}
+
+
+.container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    object-fit: ;
+    width: 400px;
+    height: 200px;
+}
+
+#imagem-noticia{
+
+}
+
+#manchete-noticia{
+
+}
+
+#data-noticia{
+
+}
