@@ -13,10 +13,14 @@
     font-style: normal;
 }
 
-@import url(./style.css);
+body{
+    background: #EDEDED;
+    display: flex;
+    flex-direction: column;    
+    
+}
 
-
-img{
+img#logo-api{
     width: 112px;
     height: 52px;
 }
@@ -74,4 +78,31 @@ header{
 
 #data-noticia{
 
+}
+
+.containerPesquisa{
+    background-color: #ffff;
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 80%;
+    height: 77px;
+    margin-top: 20px;
+    /* display: flex;
+    flex-direction: row;
+    align-items: center; */
+    padding: 10px 30px;
+}
+
+img#iconeConfiguracao{
+    background: transparent;
+}
+
+input#inputBusca{
+    max-width: 100%;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: 1px solid #989898;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s ease;
 }
